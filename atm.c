@@ -13,12 +13,12 @@ int main() {
     scanf("%d", &enterPin);
 
     if (enterPin != pin) {
-        printf("\nIncorrect PIN! Access Denied.\n");
+        printf("\nIncorrect PIN.\n");
     }
     else {
         printf("\nPIN Accepted!\n");
        
-        printf("Current Balance: %.2f\n", balance);
+        printf("Balance: %.2f\n", balance);
         
 
         printf("\nEnter amount to withdraw: ");
