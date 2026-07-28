@@ -11,7 +11,7 @@ int main()
         else{
             printf("%d is odd \n", i);
         }
-        i++;
+        i++;    
     }
     return 0;
 
